@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/rounder_backgrund_shear"
+    android:orientation="vertical"
+    android:id="@+id/result"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_35sdp">
+
+        <TextView
+            android:id="@+id/sharehead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPEED TEST RESULTS"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:textSize="@dimen/_13sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/subhead"
+            android:text="SPEED TEST BY DEVIL SPEED TEST"
+            android:textColor="@android:color/tab_indicator_text"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/_6sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateview"
+            android:text="2020/07/13"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeview"
+            android:text="11:17 PM"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_10sdp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_16sdp"
+                android:background="@drawable/ic_ping_ico"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="PING"
+                android:layout_gravity="center"
+                android:id="@+id/tping"
+                android:textStyle="bold"
+                android:textSize="@dimen/_14sdp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 ms"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_15sdp"
+                android:id="@+id/rping"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:background="@drawable/ic_download_ico"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="DOWNLOAD"
+                android:layout_gravity="center"
+                android:id="@+id/tdownload"
+                android:textStyle="bold"
+                android:textSize="@dimen/_14sdp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 Mbps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_15sdp"
+                android:id="@+id/rdownload"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:layout_gravity="center"
+                android:layout_height="@dimen/_16sdp"
+                android:background="@drawable/ic_upload_ico"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:text="UPLOAD"
+                android:layout_gravity="center"
+                android:id="@+id/tupload"
+                android:textStyle="bold"
+                android:textSize="@dimen/_14sdp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 Mbps"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/_15sdp"
+                android:id="@+id/rupload"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_height="@dimen/_40sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/thostingname"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="SERVER : Sri Lanka Telecom"
+            android:textSize="@dimen/_12sdp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/tlocationname"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:text="LOCATION : Sri Lanka"
+            android:textSize="@dimen/_12sdp"/>
+
+        <Button
+            android:layout_width="@dimen/_29sdp"
+            android:layout_height="@dimen/_22sdp"
+            android:background="@drawable/ic_share"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:id="@+id/closed"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

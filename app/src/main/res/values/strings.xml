@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Internet Speed Test</string>
+    <string name="title">Privacy Policy</string>
+    <string name="ok">OK</string>
+    <string name="bannerADsID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="time">Time</string>
+    <string name="type">Type</string>
+    <string name="ping">Ping</string>
+    <string name="download">Download</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="upload">Upload</string>
+</resources>

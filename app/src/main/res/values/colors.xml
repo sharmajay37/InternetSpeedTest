@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="newbg">#000000</color>
+    <color name="cone">#22C2CD</color>
+    <color name="subtext">#8599A7</color>
+    <color name="maintextcolor">#ffffff</color>
+    <color name="ratedialog">#036E75</color>
+    <color name="ratedialogbackgraun">#FFFFFF</color>
+    <color name="headerTextColour">#22C2CD</color>
+</resources>
