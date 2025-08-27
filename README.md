@@ -55,7 +55,7 @@ This app allows users to check **download speed** and **upload speed** of their 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/internet-speed-test-app.git
+   git clone https://github.com/sharmajay37/internet-speed-test-app.git
 ````
 
 2. Open the project in **Android Studio**
